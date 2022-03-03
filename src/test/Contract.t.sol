@@ -12,4 +12,8 @@ contract ContractTest is DSTest {
         Contract con = new Contract();
         con.doSomething();
     }
+    function testExamplePayable() public {
+        Contract con = new Contract();
+        con.doSomethingPayable();
+    }
 }
